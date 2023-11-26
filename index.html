@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 id="title">Spark</h1>
+
+<div id="difficulty-container">
+  <label for="difficulty">Select Difficulty:</label>
+  <select id="difficulty" name="difficulty">
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+  </select>
+</div>
+
+<div id="card-container">
+  <div id="card" class="card">
+    <div id="card-back" class="card-face card-back">Click to flip</div>
+    <div id="card-front" class="card-face card-front"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
